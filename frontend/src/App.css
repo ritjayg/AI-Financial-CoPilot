@@ -1,0 +1,52 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.app__header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.app__tagline {
+  margin: 0;
+  color: #8b949e;
+  font-size: 0.95rem;
+}
+
+.app__main {
+  margin-top: 1.5rem;
+}
+
+.chat__hint {
+  margin: 0 0 1rem;
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+.chat__btn {
+  background: #238636;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.chat__btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.chat__out {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #161b22;
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 0.85rem;
+  border: 1px solid #30363d;
+}
